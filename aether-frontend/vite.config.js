@@ -30,4 +30,7 @@ export default defineConfig({
   preview: {
     port: 4173,
   },
+  define: {
+    'process.env': process.env,
+  },
 })
