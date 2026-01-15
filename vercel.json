@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd aether-frontend && npm run build",
+  "buildCommand": "cd aether-frontend && npm install && npm run build",
   "outputDirectory": "aether-frontend/dist",
   "framework": "vite",
   "routes": [
